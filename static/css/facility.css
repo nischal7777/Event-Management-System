@@ -1,0 +1,52 @@
+.facility .box {
+    padding: 50px 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .facility .box span {
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+    color: #8ed851;
+  }
+  
+  .facility .box h4 {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0;
+    margin: 20px 0;
+    color: #2a2a2a;
+  }
+  
+  .facility .box p {
+    color: #aaaaaa;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .facility .box:hover {
+    background: #5c9f24;
+    padding: 30px 30px 70px 30px;
+    box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+  }
+  
+  .facility .box:hover span, .facility .box:hover h4, .facility .box:hover p {
+    color: #fff;
+  }
+
+  /* @media (max-width: 768px) {
+    .container {
+      margin: 50px;
+    }
+  } */
+  
+  /* @media (min-width: 1024px) {
+    #hero p {
+      width: 60%;
+    }
+    #hero .carousel-control-prev, #hero .carousel-control-next {
+      width: 5%;
+    }
+  } */
